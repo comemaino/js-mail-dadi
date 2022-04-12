@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #488;
+	font-size: 2rem;
+}
+
+#container {
+	margin: 100px auto;
+	width: 80%;
+	color: #fff;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+}
+
+.title {
+	width: 200px;
+	text-align: center;
+	margin: 0 1rem;
+}
+
+.number {
+	margin: 1rem;
+	border: 5px solid #fff;
+	width: 200px;
+	height: 200px;
+	font-size: 72px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
